@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio : Ankit Kumar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation-bar">
+            <div class="logo">Ankit Kumar <span class="d">.</span></div>
+            <ul class="nav-item">
+                <li><a href="#section1">About</a></li>
+                <li><a href="#section2">Notes</a></li>
+                <li><a href="#section3">Code</a></li>
+                <li><a href="#section4">Achievement</a></li>
+                <li><a href="#section5">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multitext"></span></h1>
+                <p>"Discover my journey in software development through interactive projects and innovative solutions. Download my resume to explore how my skills and experience can contribute to your next big idea."</p>
+                <div class="btns">
+                    <button>Download CV</button>
+                    <button>Hire me</button>
+                </div>
+            </div>
+            <div class="imglogo">
+                <img src="brushy_labels.webp" class="bgimg">
+                <img src="ankitkumar.png" alt="Ankit Kumar" class="profile-img">
+            </div>
+        </div>
+    </header>
+    <section id="section1" class="about-section">
+        <h2>About Me</h2>
+        <p>Hello Everyone! I am Ankit Kumar. I am an MCA student.</p>
+        <p>I have a passion for software development and love creating innovative solutions to solve real-world problems. My skills include web development, data analysis, and machine learning. In my free time, I enjoy contributing to open source projects and sharing my knowledge through blogs and tutorials.</p>
+        <div class="social-media">
+            <a href="#" ><img src="facebook.png" alt="Facebook"></a>
+            <a href="#" ><img src="twitter.png" alt="Twitter"></a>
+            <a href="#" ><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="#" ><img src="github.png" alt="GitHub"></a>
+            <a href="#" ><img src="youtube.png" alt="GitHub"></a>
+        </div>
+    </section>
+    <section id="section2" class="post-section">
+        <h2>Notes</h2>
+        <div class="post">
+            <h3>C ++ Notes</h3>
+            <p>All Types of notes here . Data type ,Varible ,Array , Function ,Operator Overloading and Inheritance </p>
+        </div>
+        <div class="post">
+            <h3>Web development notes</h3>
+            <p>HTML tags
+                CSS design
+                JavaScript Tutorial
+            </p>
+        </div>
+        <div class="post">
+            <h3>Python Notes</h3>
+            <p>Pandas 
+                Django 
+                MatplotLib
+            </p>
+        </div>
+    </section>
+
+    <section id="section3" class="post-section">
+        <h2>Code</h2>
+        <div class="post">
+            <h3>C++</h3>
+            <p>Full Code C++ And DSA </p>
+        </div>
+        <div class="post">
+            <h3>Web development</h3>
+            <p>Create Web page using HTML CSS ,and  JavaScript.</p>
+        </div>
+        <div class="post">
+            <h3>Python </h3>
+            <p>Simple Tutorial and Machine Learning code in Python</p>
+        </div>
+    </section>
+
+    <section id="section4" class="achievement-section">
+        <h2>achievement</h2>
+        <div class="certificate">
+            <h3>Web Creator</h3>
+            <p>This certificate was awarded for excellence in software development.</p>
+        </div>
+        <div class="certificate">
+            <h3>Code Talent</h3>
+            <p>This certificate was awarded for outstanding contributions to open source projects.</p>
+        </div>
+    </section>
+    <section id="section5" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        @2024 Portfolio Ankit Kumar
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multitext", {
+            strings: ["Coder", "Youtuber"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        });
+    </script>
+</body>
+</html>
